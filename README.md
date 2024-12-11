@@ -9,4 +9,4 @@ npm install pm2@latest -g
 TOKEN=Токен_Вашего_Бота
 SOURCE_CHAT_ID=Откуда переотправляем себе
 DEST_CHAT_ID=Куда переотправляем себе.
-6. Запустить: pm2 start redirection.js --name "redirection_bot" --env .env    
+6. Запустить: pm2 start redirection_bot.js --name "redirection_bot" --env .env    
